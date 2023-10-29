@@ -9,11 +9,11 @@ p {
 
 /* SPECIFICITY */
 /* * {
-  color: red !important;
+  color: red;
 }
 
 p {
-  color: green;
+  color: green !important;
 }
 
 p {
@@ -21,17 +21,17 @@ p {
 } */
 
 /* INHERITANCE */
-body {
-  font-family: Arial, Verdana, sans-serif;
-  color: #665544;
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border: solid black;
   padding: 10px;
-  border: 1px solid #665543;
 }
 .page {
   border: 1px solid #665544;
-  background-color: #efefef;
+  background-color: grey;
   padding: inherit;
 }
 p {
   font-family: cursive;
-}
+} */
